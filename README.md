@@ -10,7 +10,7 @@ The following Python libraries are required to run this project:
 - tensorflow
 - sklearn
 - numpy
-- matplotlib
+- os
 
 ## Getting Started
 
