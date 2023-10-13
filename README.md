@@ -41,7 +41,9 @@ After fitting the model, it showed a perfect accuracy of 1.00 on the training da
 
 To deploy the implemented model for predictive analysis, follow these steps:
 First, ensure that all necessary dependencies are installed. 
-Once the environment is set up, load the trained model provided for you (trained_model.h5). In order to load it, it is enough to open prediction.ipynb file and run the codes from scratch.
+Second, ensure that the Unseen Data is organized in a directory structure. This directory should contain .npy files representing the data samples.
+Third, open the 'prediction.ipynb' file that contains the prediction function. In this notebook Modify the 'data_dir' variable to specify the path to the directory containing the unseen data.
+Finally, run the notebook from scratch and at the last cell you can see the predicted class of your unseen data.
 
 ## Limitations and improvements
 dsxrfsr
