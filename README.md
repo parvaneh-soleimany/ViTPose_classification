@@ -37,9 +37,11 @@ In this task I tried to implement a simple vesion of **CNN** which is particular
 
 After fitting the model, it showed a perfect accuracy of 1.00 on the training data which could be a sign of overfitting. But the accuracy on the test set was also equal to 1 and it shows excellent generalization, that means the model effectively learned the patterns of the data rather than memorizing noise from the training set.
 
-- Limitation:
-  I think 
-
 ## Model Deploy
 
-sedfsd
+To deploy the implemented model for predictive analysis, follow these steps:
+First, ensure that all necessary dependencies are installed. 
+Once the environment is set up, load the trained model provided for you (trained_model.h5). In order to load it, it is enough to open prediction.ipynb file and run the codes from scratch.
+
+## Limitations and improvements
+dsxrfsr
