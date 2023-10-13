@@ -12,6 +12,7 @@ The following Python libraries are required to run this project:
 - numpy
 - os
 
+
 ## Getting Started
 
 To get started with this project, follow these steps:
