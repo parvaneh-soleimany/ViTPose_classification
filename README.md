@@ -12,5 +12,6 @@ The following Python libraries are required to run this project:
 - tensorflow
 - sklearn
 - numpy
-- 
+- matplotlib
+
 ## Installation
