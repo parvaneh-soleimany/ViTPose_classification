@@ -24,7 +24,7 @@ git clone https://github.com/username/repository.git
 
 ### Install packages
 
-In order to install the packages you can use the command bellow:
+In order to install the required packages you can use the following command:
 
 pip install tensorflow numpy scikit-learn matplotlib 
 
