@@ -12,8 +12,7 @@ The following Python libraries are required to run this project:
 - numpy
 - matplotlib
 
-In order to install these packages you can use the following:
-
+In order to install these packages you can use the command bellow:
 pip install tensorflow numpy scikit-learn
 
 ## Input
