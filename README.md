@@ -47,7 +47,7 @@ To deploy the implemented model for predictive analysis, follow these steps in t
 
 - Open the 'prediction.ipynb' notebook in which you should modify the 'data_dir' variable to specify the path to the directory containing the unseen data.
 
-- Run the notebook from the scratch and at the last cell you can see the predicted class of your unseen data.
+- Run the notebook from the scratch (be sure the 'trained_model.h5' is included in the current folder) and at the last cell you can see the predicted class of your unseen data.
 
 ## Limitations and improvements
 dsxrfsr
