@@ -12,6 +12,18 @@ The following Python libraries are required to run this project:
 - numpy
 - matplotlib
 
+## Getting Started
+
+To get started with this project, follow these steps:
+
+### Clone Repository
+
+To clone this repository to your local machine, use the following command:
+
+git clone https://github.com/username/repository.git
+
+### Install packages
+
 In order to install the packages you can use the command bellow:
 
 pip install tensorflow numpy scikit-learn matplotlib 
