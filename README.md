@@ -23,7 +23,7 @@ To clone this repository to your local machine, use the following command:
 
 git clone https://github.com/username/repository.git
 
-### Install packages
+### Install Packages
 
 In order to install the required packages you can use the following command:
 
@@ -32,7 +32,7 @@ pip install tensorflow numpy scikit-learn matplotlib
 ## Input
 Input is the list of numpy arrays which stored heatmap which is the output of [ViTPose](https://github.com/ViTAE-Transformer/ViTPose). The shape of each numpy file is [1, 17, 64, 48] which corresponds to 17 key points in the body. All numpy files in the same folder belong to the same class. There are a total of 17 classes (action_down, action_inside, action_new, ….). 
 
-## The choice of model
+## The Choice of Model
 
 In this task I tried to implement a simple vesion of **CNN** which is particularly effective for tasks that involve image data. CNNs are designed to capture the spatial hierarchical structure in data and this feature has made it suitable for the task of pose classification in which the spatial arrangement of the key points in the body is crucial for understanding different poses.
 
@@ -50,5 +50,5 @@ To deploy the implemented model for predictive analysis, follow these steps in t
 
 - Run the notebook from the scratch (be sure the model file 'trained_model.h5' is included in the current folder) and at the last cell you can see the predicted class of your unseen data.
 
-## Limitations and improvements
+## Limitations and Improvements
 dsxrfsr
