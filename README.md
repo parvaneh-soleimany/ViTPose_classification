@@ -55,4 +55,8 @@ To deploy the implemented model for predictive analysis, follow these steps in t
 Speaking of the CNN limitations, I can mention CNNs typically require large amounts of labeled training data (thousands of images for each class) to perform well. Acquiring and labeling large datasets can be expensive and time-consuming, especially for specific domains. In our experiment we could feed reasonable amount of input data to the model but it is not always the case.
 In scenarios where obtaining a large labeled dataset is challenging, techniques such as transfer learning, data augmentation, and semi-supervised learning can be employed to make the most of the available data and improve the model's performance. 
 
+One of the limitation of the code provided is that it does not explore hyperparameter tuning. Adjusting parameters like learning rate, batch size, and the number of epochs could significantly impact the model's performance. For further improvement of the model we can use some tuning packages like KerasTuner.
+
+The code evaluates the model based on simple accuracy. While accuracy is a useful metric, for imbalanced datasets or when different misclassification errors have different costs, other metrics such as precision, recall, and F1-score are crucial that can improve the comprehensiveness of assessment.
+
 
