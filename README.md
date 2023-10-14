@@ -1,5 +1,5 @@
 # ViTPose_classification
-This repository provides a classification model on ViTPose data for the Machine learning Intern Assignment for Body.Scratch.
+This repository provides a classification model on [ViTPose](https://github.com/ViTAE-Transformer/ViTPose) data for the Machine learning Intern Assignment for Body.Scratch.
 
 The purpose of this assignment is to classify the different poses based on the 17 key points of the body.
 
