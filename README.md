@@ -36,7 +36,7 @@ Input is the list of numpy arrays which stored heatmap which is the output of [V
 
 In this task I tried to implement a simple vesion of **CNN** which is particularly effective for tasks that involve image data. CNNs are designed to capture the spatial hierarchical structure in data and this feature has made it suitable for the task of pose classification in which the spatial arrangement of the key points in the body is crucial for understanding different poses.
 
-After fitting the model, it showed a perfect accuracy of 1.00 on the training data which could be a sign of overfitting. But the accuracy on the test set was also equal to 1 and it shows excellent generalization, that means the model effectively learned the patterns of the data rather than memorizing noise from the training set.
+After fitting the model, it showed a perfect accuracy of 1.00 on the training data which could be a sign of overfitting. But the accuracy on the test set was also equal to 1.00 and it shows excellent generalization, that means the model effectively learned the patterns of the data rather than memorizing noise from the training set.
 
 ## Model Deploy
 
