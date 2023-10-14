@@ -51,4 +51,8 @@ To deploy the implemented model for predictive analysis, follow these steps in t
 - Run the notebook from the scratch (be sure the model file 'trained_model.h5' is included in the current folder) and at the last cell you can see the predicted class of your unseen data.
 
 ## Limitations and Improvements
-dsxrfsr
+
+Speaking of the CNN limitations, I can mention CNNs typically require large amounts of labeled training data (thousands of images for each class) to perform well. Acquiring and labeling large datasets can be expensive and time-consuming, especially for specific domains or niche applications. In our experiment we could feed reasonable amount of input data to the model but it is not always the case.
+In scenarios where obtaining a large labeled dataset is challenging, techniques such as transfer learning, data augmentation, and semi-supervised learning can be employed to make the most of the available data and improve the model's performance. 
+
+
