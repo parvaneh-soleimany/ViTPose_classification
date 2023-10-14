@@ -59,4 +59,8 @@ One of the limitation of the code provided is that it does not explore hyperpara
 
 The code evaluates the model based on simple accuracy. While accuracy is a useful metric, for imbalanced datasets or when different misclassification errors have different costs, other metrics such as precision, recall, and F1-score are crucial that can improve the comprehensiveness of assessment.
 
+Consequently, in the code just one classification method is hired which does not allow to compare different methods and choose the best one that fits the problems well. One improvement of the code provided can be implementing different methods.
+
+Consequently, the current code employs a single classification method, limiting the ability to compare various approaches and select the best one for addressing the specific issue at hand. An improvement to the existing code could involve the implementing of multiple methods for a comprehensive evaluation.
+
 
